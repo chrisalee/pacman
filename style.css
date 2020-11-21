@@ -1,0 +1,68 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid #000000 1px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #126b00;
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+}
+
+.wall {
+    background: #07336d;
+}
+
+.power-up {
+    background-color: #ff00ff;
+    border-radius: 10px;
+}
+
+.pac-man {
+    background-color: #e5ff00;
+    border-radius: 50%;
+}
+
+.ghost-lair {
+    background-color: #ffffff;
+}
+
+
+
+.blinky {
+    background-color: #ff0000;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.pinky {
+    background-color: #f5adff;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.inky {
+    background-color: #34b3d3;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.clyde {
+    background-color: #ff9100;
+    border-radius: 50%;
+    border: 0px;
+}
+
+.scared-ghost {
+    background-color: #00ffbf;
+    border-radius: 50%;
+    border: 0px;
+}
